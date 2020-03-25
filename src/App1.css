@@ -43,7 +43,7 @@ border-radius:0 5px 5px 0;
 
 .searchResultDiv {
   float:left;	
-  width: 800px;
+  width: 100%;
   margin: 0 auto;
   text-align: left;
   margin-bottom: 20px;

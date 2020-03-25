@@ -1,0 +1,43 @@
+/* */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+body{
+font-family:arial;
+background-color:cornflowerblue;
+}
+*{
+box-sizing:border-box;
+}
+#box{
+max-width:700px;
+margin:auto;
+margin-top:200px;
+}
+
+input[type=text]{
+padding:17px;
+font-size:20px;
+border:none;
+float:left;
+width:85%;
+background:linear-gradient(#ffffff,#3399ccc);
+background:-moz-linear-gradient(#ffffff,#3399ccc);
+background:-webkit-linear-gradient(#ffffff,#3399ccc);
+border-radius:5px 0 0 5px;
+}
+
+
+button{
+float:left;
+width:15%;
+padding:17px;
+background:linear-gradient(#3366ff,#336699);
+background:-moz-linear-gradient(#3366ff,#336699);
+background:-webkit-linear-gradient(#3366ff,#336699);
+color:white;
+font-size:20px;
+border:none;
+cursor:pointer;
+border-radius:0 5px 5px 0;
+
+}
+

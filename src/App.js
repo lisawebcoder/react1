@@ -123,8 +123,8 @@ class App extends React.Component {
     for (var key3 in this.state.wikiSearchReturnValues) {
       wikiSearchResults.push(
         <div className="searchResultDiv" key={key3}>
-          <h3><a href={this.state.wikiSearchReturnValues[key3].queryResultPageFullURL}>{this.state.wikiSearchReturnValues[key3].queryResultPageTitle}</a></h3>
-          <span className='link'><a href={this.state.wikiSearchReturnValues[key3].queryResultPageFullURL}>{this.state.wikiSearchReturnValues[key3].queryResultPageFullURL}</a></span>
+          <h3><a href={this.state.wikiSearchReturnValues[key3].queryResultPageFullURL}target="_blank">{this.state.wikiSearchReturnValues[key3].queryResultPageTitle}</a></h3>
+          <span className='link'><a href={this.state.wikiSearchReturnValues[key3].queryResultPageFullURL}target="_blank">{this.state.wikiSearchReturnValues[key3].queryResultPageFullURL}</a></span>
           <p className="description" dangerouslySetInnerHTML={{__html: this.state.wikiSearchReturnValues[key3].queryResultPageSnippet}}></p>
         </div>
       );

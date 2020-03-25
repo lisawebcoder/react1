@@ -42,10 +42,38 @@ border-radius:0 5px 5px 0;
 }
 
 .searchResultDiv {
-  float:left;
-  width: 700px;
+  float:left;	
+  width: 800px;
   margin: 0 auto;
   text-align: left;
   margin-bottom: 20px;
 }
 
+.searchResultDiv h3 {
+  color: #1a0dab;
+}
+.searchResultDiv h3 a {
+  color: #1a0dab;
+  display: inline-block;
+  line-height: 16px;
+  text-decoration: none;
+}
+.searchResultDiv h3 a:hover {
+  border-bottom: 3px solid;
+}
+.searchResultDiv a:visited {
+  color: #1a0dab;
+}
+.searchResultDiv .link a {
+  text-decoration: none;
+  color: #287e44;
+}
+.searchResultDiv .link a:hover {
+  text-decoration: none;
+}
+.searchResultDiv .searchmatch {
+  font-weight: bold;
+}
+.searchResultDiv .description {
+  color: #414141;
+}

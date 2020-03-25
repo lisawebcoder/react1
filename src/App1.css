@@ -65,6 +65,7 @@ border-radius:0 5px 5px 0;
   color: #1a0dab;
 }
 .searchResultDiv .link a {
+   width: 100%;
   text-decoration: none;
   color: #287e44;
 }
@@ -72,8 +73,10 @@ border-radius:0 5px 5px 0;
   text-decoration: none;
 }
 .searchResultDiv .searchmatch {
+	width: 100%;
   font-weight: bold;
 }
 .searchResultDiv .description {
+	width: 100%;
   color: #414141;
 }
